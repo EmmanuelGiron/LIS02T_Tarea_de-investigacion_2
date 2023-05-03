@@ -1,8 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CuponesController;
-use App\Http\Controllers\OfertasController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,5 +16,3 @@ use App\Http\Controllers\OfertasController;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/cupones', [OfertasController::class,'show']);

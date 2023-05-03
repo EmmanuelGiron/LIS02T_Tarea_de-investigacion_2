@@ -21,9 +21,6 @@ class Kernel extends HttpKernel
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
-        
-        /*Aqui se manda a llamar para verificar la key para la api*/
-        \App\Http\Middleware\Verificar_key::class,
     ];
 
     /**
