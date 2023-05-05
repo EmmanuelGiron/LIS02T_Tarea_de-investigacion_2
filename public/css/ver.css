@@ -1,0 +1,89 @@
+*{
+  font-family: "roboto", sans-serif;
+}
+
+body{
+  font-family: "roboto", sans-serif;
+  background: linear-gradient(rgba(220, 234, 237, 0.7), rgba(220, 234, 237, 0.7)), url(http://res.cloudinary.com/jenelle-miller/image/upload/v1518619522/doodles_cuau2z.png) repeat;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input {
+    min-height: 50px;
+    max-width: 150px;
+    padding: 0 1rem;
+    color: black;
+    font-size: 15px;
+    border: 1px solid #5e4dcd;
+    border-radius: 6px 0 0 6px;
+    
+  }
+  
+  .button--submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #5e4dcd;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .button--submit:hover {
+    background-color: #5e5dcd;
+  }
+  
+  .input:focus, .input:focus-visible {
+    border-color: #3898EC;
+    outline: none;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .columna-izquierda {
+    width: 60%;
+    float: left;
+  }
+  
+  .columna-derecha {
+    width: 40%;
+    float: right;
+  }
+
+  .for_m{
+    margin-top: 200px;
+  }
+
+  .cupon-container{
+    width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.42);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.42);
+  }
+
+  .txt{
+    margin-top: 10px;
+    margin-top: 10px;
+  }
+
+
+  .btn_back{
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
