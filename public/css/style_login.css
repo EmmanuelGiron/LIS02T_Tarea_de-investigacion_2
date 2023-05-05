@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Baloo 2', cursive; 
+}
+
+
+body {
+  font-family: "roboto", sans-serif;
+  background: linear-gradient(rgba(220, 234, 237, 0.7), rgba(220, 234, 237, 0.7)), url(http://res.cloudinary.com/jenelle-miller/image/upload/v1518619522/doodles_cuau2z.png) repeat;
+}
+
+.container {
+  height: 100%;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  font-family: 'Baloo 2', cursive;    
+
+}
+
+h1 {
+  font-family: 'Baloo 2', cursive;
+  color: #000000;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 32px;
+}
+
+.form-background {
+  background: #fff;
+  width: 420px;
+  border-radius: 10px;
+  padding: 32px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.26);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.26);
+}
+
+form {
+  text-transform: capitalize;
+  font-family: 'Baloo 2', cursive;
+  text-align: center;
+}
+
+
+
+input {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  border: 1px solid #000000;
+  padding: 15px 20px;
+  color: #000000;
+  font-size: 0.9rem;
+  transition: 0.4s;
+}
+input:last-child {
+  margin-bottom: 0;
+}
+input:focus {
+  border-color: #8D6CC7;
+  outline: none;
+}
+
+[type=submit] {
+  background: #8D6CC7;
+  border-radius: 30px;
+  padding: 16px 30px;
+  width: 100%;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  transition: 0.4s;
+  font-family: 'Baloo 2', cursive;
+  font-size: 15px;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+}
+
+[type=submit]:hover {
+  background: #8461c3;
+  cursor: pointer;
+}
+
+.sign-up-divider {
+  font-family: "Montserrat", "Arial", sans-serif;
+  text-align: center;
+  color: #C4C8D4;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  padding: 24px 0;
+}
+.sign-up-divider::before {
+  content: "";
+  display: inline-block;
+  width: 27%;
+  margin-right: 5%;
+  height: 1px;
+  background: #DAE2F1;
+  vertical-align: middle;
+}
+.sign-up-divider::after {
+  content: "";
+  display: inline-block;
+  width: 27%;
+  margin-left: 5%;
+  height: 1px;
+  background: #DAE2F1;
+  vertical-align: middle;
+}
+
+.login {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 0.8rem;
+  font-family: "Montserrat", "Arial", sans-serif;
+}
+.login a {
+  margin-left: 4px;
+  text-decoration: none;
+  color: #8D6CC7;
+  transition: 0.3s;
+}
+.login a:hover {
+  color: #8461c3;
+}
